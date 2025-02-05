@@ -113,26 +113,24 @@ int main() {
 
   // cout << "Final Ans is: " << ans << endl;
 
-  // int arr[] = {20,10,30,50,40,70,60};
-  // int n = 7;
-  // int target = 20;
-
-  // int targetIndex = searchNearlySorted(arr, n, target);
-
-  // if(targetIndex == -1) {
-  //  cout << "Element Not found" << endl;
-  // }
-  // else {
-  //  cout << "Element Found at Index: " << targetIndex << endl;
-  // }
+  int arr[] = {20,10,30,50,40,70,60};
+  int n = 7;
+  int target = 70;
+  int targetIndex = searchNearlySorted(arr, n, target);
+  if(targetIndex == -1) {
+   cout << "Element Not found" << endl;
+  }
+  else {
+   cout << "Element Found at Index: " << targetIndex << endl;
+  }
 
 
-  int arr[] = {10,10,10};
-  int n = 13;
+  // int arr[] = {10,10,10};
+  // int n = 13;
 
-  int ansIndex = findOddOccuringElement(arr, n);
+  // int ansIndex = findOddOccuringElement(arr, n);
 
-  cout << "Final Ans is: "<< arr[ansIndex] << endl; 
+  // cout << "Final Ans is: "<< arr[ansIndex] << endl; 
 
   return 0;
 }
