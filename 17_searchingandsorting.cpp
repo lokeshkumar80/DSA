@@ -55,6 +55,7 @@ int searchNearlySorted(int arr[], int n, int target) {
   return -1;
 }
 
+// Similar to problem 540 leetcode
 int findOddOccuringElement(int arr[], int n) {
   int s = 0;
   int e = n-1;
