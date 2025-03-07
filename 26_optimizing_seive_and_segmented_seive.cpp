@@ -18,7 +18,7 @@
 //             {
 //                 // means, sieve[i] is Prime and mark its multiples
 //                 //  as non-prime.
-//                 /*long long long long int j = i * 2;*/
+//                 /*long long int j = i * 2;*/
 //                 long long int j = i * i; // Optimisation 1 (inner loop):
 //                                          // first unmarked number would be i*i
 //                                          // as, other have been marked by 2 to (i - 1).
